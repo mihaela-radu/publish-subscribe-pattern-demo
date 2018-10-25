@@ -40,8 +40,8 @@ namespace PubSubPattern.ConsoleApp
             Console.WriteLine("{0}-{1} match completed with score {2}, broadcasting results..", match.HomeTeamName, match.AwayTeamName, match.FinalScore);
             publisher.Broadcast(match);
 
-            Console.WriteLine("{0} received the match result for {1} vs {2}: {3}", fan1.Name, match.HomeTeamName, match.AwayTeamName, fan1.Matches.Any(m => m.MatchId == match.MatchId));
-            Console.WriteLine("{0} received the match result for {1} vs {2}: {3}", fan2.Name, match.HomeTeamName, match.AwayTeamName, fan2.Matches.Any(m => m.MatchId == match.MatchId));
+            //Console.WriteLine("{0} received the match result for {1} vs {2}: {3}", fan1.Name, match.HomeTeamName, match.AwayTeamName, fan1.Matches.Any(m => m.MatchId == match.MatchId));
+            //Console.WriteLine("{0} received the match result for {1} vs {2}: {3}", fan2.Name, match.HomeTeamName, match.AwayTeamName, fan2.Matches.Any(m => m.MatchId == match.MatchId));
 
             Console.ReadLine();
         }
