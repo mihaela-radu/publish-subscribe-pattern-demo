@@ -1,0 +1,7 @@
+/PubSubPatternConsoleApp/.vs/PubSubPattern/v15/*.suo
+/PubSubPatternConsoleApp/.vs/PubSubPattern/DesignTimeBuild/*.dtbcache
+/PubSubPatternConsoleApp/.vs/PubSubPattern/v15/Server/sqlite3/storage.ide
+/PubSubPatternConsoleApp/.vs/PubSubPattern/v15/Server/sqlite3/storage.ide-shm
+/PubSubPatternConsoleApp/.vs/PubSubPattern/v15/Server/sqlite3/storage.ide-wal
+obj/
+bin/
